@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Local Storage</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/estilo.css">
+        <script src="JS/funcaoStorage.js"></script>
+    </head>
+    <body>
+        <div>Aula sobre: LocalStorage</div>
+        <form>
+            <br>
+            <label>Nome do aluno: </label>
+            <input type="text" id="usuario" value=""/>
+            
+            <div class="botao">
+                <input type="button" id="botao" value="gravar"/>
+                <input type="button" id="limpar" value="limpar"/>
+            </div>
+        </form>
+        <script>
+            inicio();
+            
+            document.getElementById("botao").addEventListener("click", gravarNome);
+            
+            function gravarNome() {
+                gravar("Aluno: ", document.getElementById("usuario").value);
+                usuario.value = "";
+            }
+            
+            fim();
+        </script>
+    </body>
+</html>

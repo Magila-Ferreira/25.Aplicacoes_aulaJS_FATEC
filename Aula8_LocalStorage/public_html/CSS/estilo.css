@@ -1,0 +1,21 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 21 de out. de 2022, 12:34:38
+    Author     : MMSF
+*/
+input#botao, input#limpar {
+    margin-left: 7.5px;
+    margin-top: 10px;
+}
+input#limpar {
+    background: saddlebrown;
+    color: white;
+}
+input#botao {
+    margin-left: 160px;
+    background: green;
+    color: white;
+}

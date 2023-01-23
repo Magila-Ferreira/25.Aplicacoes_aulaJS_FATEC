@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Validação de datas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            h1 {
+                margin: 30px 0;
+            }
+            .erro {
+                color: red;
+                font-size: smaller;
+                margin: 10px 0;
+            }
+            
+            #botao {
+                margin: 20px 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <form style="text-align: center">
+                <div>
+                    <h1>Validação de datas 1</h1>
+
+                    <label>Digite uma data: </label>
+                    <input type="date" id="umaData" value=""/>
+                    <br>
+                    <span class="erro" id="erroData"></span>
+                </div>
+                
+                <!-- Data 2 --> 
+                <div>
+                    <h1>Validação de datas 2</h1>
+
+                    <label>Digite a 2ª data: </label>
+                    <input type="date" id="data2" value=""/>
+                    <br>
+                    <span class="erro" id="erroData2"></span>
+                </div>
+                
+                <!-- Campo Nome --> 
+                <div>
+                    <h1>Validação do campo nome</h1>
+
+                    <label>Digite um nome: </label>
+                    <input type="text" id="nome" value=""/>
+                    <br>
+                    <span class="erro" id="erroNome"></span>
+                </div>
+                
+                <input type="button" id="botao" value="Verificar a data"/> 
+            </form>
+            <script src="JS/geral.js"></script>
+            <script src="JS/index.js"></script>
+        </div>
+    </body>
+</html>
